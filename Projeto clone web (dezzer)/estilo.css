@@ -1,13 +1,90 @@
-:root {
-	--default-green: #1db954;
-	--light-green: #1ed760;
-}
+
 * {
+
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
+body
+{
 
-body {
 	font-family: "Roboto", sans-serif;
+}
+.primeiro-botão{
+
+	background: #1db954;
+	text-transform: uppercase;
+	padding: 15px 60px;
+	border: none;
+	border-radius: 30px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: all 300ms ease;
+
+}
+#navegar .navegar-conteudo .logo 
+{
+
+	width: 200px;
+	height: auto;
+}
+#navegar 
+{
+
+	display: flex;
+	background-color: rgba(0, 0, 0, 9.9);
+	color: white;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#navegar .navegar-conteudo 
+{
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+#navegar .navegar-conteudo ul 
+{
+
+	display: flex;
+	list-style: none;
+	font-weight: bold
+}
+#navegar .navegar-conteudo ul li
+{
+	padding: 0 20px;
+	transition: all 300ms ease;
+}
+#navegar .navegar-conteudo ul li:nth-child(3)
+{
+
+	border-right: 1px solid white;
+}
+#amostra
+{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+    background: url("/img/showcase.jpg") center center/cover;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color;
+}
+#amostra .amostra-conteudo
+{
+	display: flex;
+	flex-direction: column;
+	align-itens: center;
+}
+#amostra .amostra-conteudo h2{
+	font-size: 5rem;
+}
+#amostra .amostra-conteudo p{
+	margin: 15px 0;
+    font-size: 1.1rem;
 }
