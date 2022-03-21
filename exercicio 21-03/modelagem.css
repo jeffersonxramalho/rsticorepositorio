@@ -1,0 +1,32 @@
+h1{
+text-align: center;
+color: blue;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 200;
+}
+body{
+background-image: url(imagens/16218.jpg); 
+background-position:right;
+background-size: 80%;
+
+}
+h2{
+    text-align: left;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: 800;
+}
+p1{
+    text-align: initial;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+h3{
+    text-align: left;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
