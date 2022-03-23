@@ -1,0 +1,45 @@
+H1{
+text-align: center;
+color: darkred;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 200;
+
+}
+body{
+background-color: black; 
+background-position:right;
+background-size: 80%;
+
+}
+H2{
+    text-align: left;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: 800;
+}
+p1{
+    text-align: end;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    border: solid;
+}
+H3{
+    text-align: left;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+h4{
+    text-align: left;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+table{
+    color: green;
+    border: 2px solid
+}
