@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro teste</title>
+    <link href="modelagem.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <fieldset>
+      <legend class="entrada" align="center"><u>Formulario de teste</u></legend>
+      <form action="saida.html" method="post">
+        <br />
+
+        <div>
+          <label for="Nome" class="entrada">Nome:</label>
+          <input type="text" id="Nome" />
+        </div>
+
+        <div>
+            <label for="Telefone" class="entrada">Telefone:</label>
+            <input type="number" id="Telefone" />
+          </div>
+
+          <div>
+            <label for="Endereço" class="entrada">Endereço</label>
+            <input type="number" id="Endereço" />
+          </div>
+
+        <div>
+          <label for="E-mail" class="entrada">E-mail:</label>
+          <input type="email" id="E-mail" />
+        </div>
+
+        <div>
+          <label for="Mensagem" class="entrada">Mensagem:</label>
+          <textarea id="Mensagem"></textarea>
+        </div>
+        <input type="submit" value="Cadastrar" id="submit" class="botom" />
+        <input type="reset" value="Apagar" id="reset" class="botom" />
+      </form>
+    </fieldset>
+  </body>
+</html>
